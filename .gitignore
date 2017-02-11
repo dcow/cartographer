@@ -1,0 +1,8 @@
+# Artifacts
+build/
+DerivedData/
+xcuserdata/
+*.pbxuser
+
+# Dependencies
+Carthage/Build
