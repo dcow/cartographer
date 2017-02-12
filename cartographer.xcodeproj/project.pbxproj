@@ -14,6 +14,26 @@
 		70422DB81E4FB498008F4825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70422DB61E4FB498008F4825 /* LaunchScreen.storyboard */; };
 		70422DC31E4FB498008F4825 /* cartographerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70422DC21E4FB498008F4825 /* cartographerTests.swift */; };
 		70422DCE1E4FB498008F4825 /* cartographerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70422DCD1E4FB498008F4825 /* cartographerUITests.swift */; };
+		7055CB9F1E4FE2C3000DBA35 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9B1E4FE2C3000DBA35 /* Lottie.framework */; };
+		7055CBA01E4FE2C3000DBA35 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9B1E4FE2C3000DBA35 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBA11E4FE2C3000DBA35 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9C1E4FE2C3000DBA35 /* Locksmith.framework */; };
+		7055CBA21E4FE2C3000DBA35 /* Locksmith.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9C1E4FE2C3000DBA35 /* Locksmith.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBA31E4FE2C3000DBA35 /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9D1E4FE2C3000DBA35 /* libPhoneNumberiOS.framework */; };
+		7055CBA41E4FE2C3000DBA35 /* libPhoneNumberiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9D1E4FE2C3000DBA35 /* libPhoneNumberiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBA51E4FE2C3000DBA35 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9E1E4FE2C3000DBA35 /* SwiftyJSON.framework */; };
+		7055CBA61E4FE2C3000DBA35 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CB9E1E4FE2C3000DBA35 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBAA1E4FE431000DBA35 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBA81E4FE431000DBA35 /* Crashlytics.framework */; };
+		7055CBAB1E4FE431000DBA35 /* Crashlytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBA81E4FE431000DBA35 /* Crashlytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBAC1E4FE431000DBA35 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBA91E4FE431000DBA35 /* Fabric.framework */; };
+		7055CBAD1E4FE431000DBA35 /* Fabric.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBA91E4FE431000DBA35 /* Fabric.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBB21E4FEA83000DBA35 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBAE1E4FEA83000DBA35 /* XCGLogger.framework */; };
+		7055CBB31E4FEA83000DBA35 /* XCGLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBAE1E4FEA83000DBA35 /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBB41E4FEA83000DBA35 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBAF1E4FEA83000DBA35 /* SVProgressHUD.framework */; };
+		7055CBB51E4FEA83000DBA35 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBAF1E4FEA83000DBA35 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBB61E4FEA83000DBA35 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBB01E4FEA83000DBA35 /* PureLayout.framework */; };
+		7055CBB71E4FEA83000DBA35 /* PureLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBB01E4FEA83000DBA35 /* PureLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7055CBB81E4FEA83000DBA35 /* DynamicColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBB11E4FEA83000DBA35 /* DynamicColor.framework */; };
+		7055CBB91E4FEA83000DBA35 /* DynamicColor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7055CBB11E4FEA83000DBA35 /* DynamicColor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +53,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7055CBA71E4FE2C3000DBA35 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7055CBA61E4FE2C3000DBA35 /* SwiftyJSON.framework in Embed Frameworks */,
+				7055CBB71E4FEA83000DBA35 /* PureLayout.framework in Embed Frameworks */,
+				7055CBAB1E4FE431000DBA35 /* Crashlytics.framework in Embed Frameworks */,
+				7055CBB51E4FEA83000DBA35 /* SVProgressHUD.framework in Embed Frameworks */,
+				7055CBB91E4FEA83000DBA35 /* DynamicColor.framework in Embed Frameworks */,
+				7055CBA41E4FE2C3000DBA35 /* libPhoneNumberiOS.framework in Embed Frameworks */,
+				7055CBB31E4FEA83000DBA35 /* XCGLogger.framework in Embed Frameworks */,
+				7055CBA01E4FE2C3000DBA35 /* Lottie.framework in Embed Frameworks */,
+				7055CBA21E4FE2C3000DBA35 /* Locksmith.framework in Embed Frameworks */,
+				7055CBAD1E4FE431000DBA35 /* Fabric.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		70422DAA1E4FB497008F4825 /* cartographer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartographer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70422DAD1E4FB497008F4825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +90,16 @@
 		70422DC91E4FB498008F4825 /* cartographerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cartographerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70422DCD1E4FB498008F4825 /* cartographerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartographerUITests.swift; sourceTree = "<group>"; };
 		70422DCF1E4FB498008F4825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7055CB9B1E4FE2C3000DBA35 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		7055CB9C1E4FE2C3000DBA35 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = "<group>"; };
+		7055CB9D1E4FE2C3000DBA35 /* libPhoneNumberiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumberiOS.framework; path = Carthage/Build/iOS/libPhoneNumberiOS.framework; sourceTree = "<group>"; };
+		7055CB9E1E4FE2C3000DBA35 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		7055CBA81E4FE431000DBA35 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		7055CBA91E4FE431000DBA35 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7055CBAE1E4FEA83000DBA35 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		7055CBAF1E4FEA83000DBA35 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		7055CBB01E4FEA83000DBA35 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
+		7055CBB11E4FEA83000DBA35 /* DynamicColor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicColor.framework; path = Carthage/Build/iOS/DynamicColor.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7055CBA51E4FE2C3000DBA35 /* SwiftyJSON.framework in Frameworks */,
+				7055CBB61E4FEA83000DBA35 /* PureLayout.framework in Frameworks */,
+				7055CBAA1E4FE431000DBA35 /* Crashlytics.framework in Frameworks */,
+				7055CBB41E4FEA83000DBA35 /* SVProgressHUD.framework in Frameworks */,
+				7055CBB81E4FEA83000DBA35 /* DynamicColor.framework in Frameworks */,
+				7055CBA31E4FE2C3000DBA35 /* libPhoneNumberiOS.framework in Frameworks */,
+				7055CBB21E4FEA83000DBA35 /* XCGLogger.framework in Frameworks */,
+				7055CB9F1E4FE2C3000DBA35 /* Lottie.framework in Frameworks */,
+				7055CBA11E4FE2C3000DBA35 /* Locksmith.framework in Frameworks */,
+				7055CBAC1E4FE431000DBA35 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +140,16 @@
 		70422DA11E4FB497008F4825 = {
 			isa = PBXGroup;
 			children = (
+				7055CBAE1E4FEA83000DBA35 /* XCGLogger.framework */,
+				7055CBAF1E4FEA83000DBA35 /* SVProgressHUD.framework */,
+				7055CBB01E4FEA83000DBA35 /* PureLayout.framework */,
+				7055CBB11E4FEA83000DBA35 /* DynamicColor.framework */,
+				7055CBA81E4FE431000DBA35 /* Crashlytics.framework */,
+				7055CBA91E4FE431000DBA35 /* Fabric.framework */,
+				7055CB9B1E4FE2C3000DBA35 /* Lottie.framework */,
+				7055CB9C1E4FE2C3000DBA35 /* Locksmith.framework */,
+				7055CB9D1E4FE2C3000DBA35 /* libPhoneNumberiOS.framework */,
+				7055CB9E1E4FE2C3000DBA35 /* SwiftyJSON.framework */,
 				70422DAC1E4FB497008F4825 /* cartographer */,
 				70422DC11E4FB498008F4825 /* cartographerTests */,
 				70422DCC1E4FB498008F4825 /* cartographerUITests */,
@@ -135,6 +208,7 @@
 				70422DA61E4FB497008F4825 /* Sources */,
 				70422DA71E4FB497008F4825 /* Frameworks */,
 				70422DA81E4FB497008F4825 /* Resources */,
+				7055CBA71E4FE2C3000DBA35 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,8 +490,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QE87889RLN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = cartographer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eero.cartographer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -429,8 +509,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QE87889RLN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = cartographer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eero.cartographer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -514,6 +600,7 @@
 				70422DD41E4FB498008F4825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70422DD51E4FB498008F4825 /* Build configuration list for PBXNativeTarget "cartographerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +609,7 @@
 				70422DD71E4FB498008F4825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70422DD81E4FB498008F4825 /* Build configuration list for PBXNativeTarget "cartographerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +618,7 @@
 				70422DDA1E4FB498008F4825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

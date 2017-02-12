@@ -1,0 +1,8 @@
+github "airbnb/lottie-ios" "master"
+github "iziz/libPhoneNumber-iOS"
+github "SwiftyJSON/SwiftyJSON"
+github "matthewpalmer/Locksmith"
+github "PureLayout/PureLayout"
+github "SVProgressHUD/SVProgressHUD"
+github "DaveWoodCom/XCGLogger" ~> 4.0.0
+github "yannickl/DynamicColor" >= 3.2.1

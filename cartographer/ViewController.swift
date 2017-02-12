@@ -8,18 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import Lottie
+import libPhoneNumberiOS
+import Locksmith
+import SwiftyJSON
+import SVProgressHUD
+import Crashlytics
+import PureLayout
+import DynamicColor
+import Fabric
+import XCGLogger
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
+class ViewController: UIViewController {}
 
